@@ -1,0 +1,76 @@
+.new-convo {
+    width: 35%;
+    max-width: 415px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--white4);
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--grey2);
+    transition: all ease 0.5s;
+}
+
+.new-convo-header {
+    display: flex;
+    background-color: var(--blue);
+    align-items: center;
+    padding: 60px 15px 15px 15px;
+}
+
+.header-back-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-title {
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    font-weight: bold;
+    color: var(--white4);
+    margin-left: 20px;
+}
+
+.new-convo-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.new-convo-list::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.new-convo-list::-webkit-scrollbar-thumb {
+    background-color: rgba(40, 108, 253, 0.2);
+}
+
+.new-convo-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.new-convo-item:hover {
+    background-color: var(--white5);
+}
+
+.new-item-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.new-item-name {
+    font-size: 17px;
+    color: var(--black);
+}

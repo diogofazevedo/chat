@@ -1,0 +1,13 @@
+.convo-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-bottom: 6px solid var(--blue);
+}
+
+.convo-intro img {
+    width: 35%;
+    height: auto;
+}
