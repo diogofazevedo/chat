@@ -1,3 +1,3 @@
 # chat
 
-Projeto "Chat" desenvolvido com React.js e Firebase.
+Projeto "**Chat**" desenvolvido com **React** e **Firebase**.
